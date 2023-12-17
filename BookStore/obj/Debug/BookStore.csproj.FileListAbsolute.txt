@@ -1,0 +1,16 @@
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\BookStore.csproj.AssemblyReference.cache
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Pages\ClientsPage.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Pages\InfoPage.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Pages\MenuPage.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Pages\EmployeePage.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Pages\ServicePage.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Pages\OrdersPage.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Windows\AuthWindow.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Windows\ClientCardWindow.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Windows\ServiceCardWindow.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\App.g.cs
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Moon_MarkupCompile.cache
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Moon_MarkupCompile.lref
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Moon.exe
+C:\Users\Кирилл\Downloads\KP\Moon\obj\Debug\Moon.pdb

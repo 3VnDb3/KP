@@ -1,0 +1,25 @@
+﻿<Page x:Class="Moon.Pages.InfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Moon.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Информация">
+    <DockPanel>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3.5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" x:Name="LogoutButton" HorizontalAlignment="Center" VerticalAlignment="Top" Height="50" Width="150" Click="LogoutButton_Click" Content="Главное меню" FontFamily="Arial" FontSize="14"/>
+            <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Width="700" Height="300" FontSize="17" TextWrapping="WrapWithOverflow" Text="Детский развивающий центр «Почемучка» — это то самое место, где юные путешественники могут забыть о нудных уроках и вдоволь насладиться прекрасным летним отдыхом. Здесь имеются душевые, удобная столовая, медицинский пункт, спортивный клуб, а также летняя эстрада и многое другое. Здесь по-настоящему можно стать самим собой и получать удовольствие от отдыха.
+В детском развивающем центре Почемучка ребятишки учатся постигать интересную жизнь совместно с опытными воспитателями и их помощниками. Развивающие занятия весьма различны. Классы подбираются по возрасту, а это значит, что ваш ребенок будет всегда находиться вместе со сверстниками, что способствует развитию коммуникативных навыков."/>
+        </Grid>
+    </DockPanel>
+</Page>

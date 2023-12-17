@@ -1,0 +1,37 @@
+﻿<Page x:Class="Moon.Pages.MenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Moon.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Главное меню">
+    <DockPanel Width="800" Height="434">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="IdRoleLabel" Grid.Column="0" Grid.Row="1" VerticalAlignment="Top" HorizontalContentAlignment="Left" Width="90" Content="ID:" FontWeight="Black" FontFamily="Arial" FontSize="13"/>
+            <Label x:Name="UserNameLabel" Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" Content="Пользователь:" FontWeight="Black" FontFamily="Arial" FontSize="13"/>
+            <Label x:Name="UserRoleLabel" Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom" HorizontalContentAlignment="Left" Width="130" Content="Роль:" FontWeight="Black" FontFamily="Arial" FontSize="13"/>
+            <TextBlock x:Name="IDRoleBlock" Grid.Column="0" Grid.Row="1" Width="150" HorizontalAlignment="Right" Padding="5" VerticalAlignment="Top" FontFamily="Arial" FontSize="13"/>
+            <TextBlock x:Name="UserNameBlock"  Grid.Column="0" Grid.Row="1" Width="150" HorizontalAlignment="Right" Padding="5" VerticalAlignment="Center"  FontFamily="Arial" FontSize="13"/>
+            <TextBlock x:Name="UserRoleBlock" Grid.Column="0" Grid.Row="1" Width="150" HorizontalAlignment="Right" Padding="5" VerticalAlignment="Bottom" FontFamily="Arial" FontSize="13"/>
+            <Button x:Name="LogoutButton" Grid.Column="2" VerticalAlignment="Top" Height="50" Width="150" Click="Vixod_Click" Content="Выйти" FontFamily="Arial" FontSize="14"/>
+            <Button x:Name="ClientsButton" Grid.Row="2" VerticalAlignment="Top" Grid.Column="1" Click="Client_Click" Content="Авторы" FontFamily="Arial" FontSize="14" HorizontalAlignment="Center" Width="200" Height="50"/>
+            <Button Visibility="Hidden" x:Name="InfoButton"   Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Click="InfoButton_Click" Content="О нас" FontFamily="Arial" FontSize="14" HorizontalAlignment="Center" Width="200" Height="50"/>
+            <Button Visibility="Hidden" x:Name="EmployeeButton" Click="Employee_Click" Content="Сотрудники" FontFamily="Arial" FontSize="14"/>
+            <Button x:Name="ServiceButton" Grid.Column="1" Grid.Row="2" VerticalAlignment="Bottom" Click="Service_Click" Content="Публикации" FontFamily="Arial" FontSize="14" HorizontalAlignment="Center" Width="200" Height="50"/>
+            <Button Visibility="Hidden" x:Name="OrdersButton" Click="Orders_Click" Content="Заказы" FontFamily="Arial" FontSize="14"/>
+        </Grid>
+    </DockPanel>
+</Page>
